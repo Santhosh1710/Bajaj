@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 100vh;            /* Full viewport height */
+  flex-direction: column;   /* Stack elements vertically */
+  text-align: center;       /* Center text inside elements */
+  background-color: #f0f0f0; /* Optional: light background color */
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+  color: red;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  background-color: #f0f0f0;
+}
